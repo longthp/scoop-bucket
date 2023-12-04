@@ -3,6 +3,7 @@
 ### App Manifests
 
 | App | Manifest |
+| --- | --- |
 | [FancyWM](https://github.com/FancyWM/fancywm) | [link](./bucket/fancywm.json) |
 | [DaxStudio](https://github.com/DaxStudio/DaxStudio) | [link](./bucket/daxstudio.json) |
 | [ButteryTaskbar2](https://github.com/LuisThiamNye/ButteryTaskbar2) | [link](./bucket/buttery-taskbar.json) |
