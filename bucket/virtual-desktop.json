@@ -1,7 +1,6 @@
 {
     "version": "V1.16",
     "url": "https://github.com/MScholtes/VirtualDesktop/releases/download/V1.16/VirtualDesktop.exe",
-    "hash": "99507ff1440ca3ae44dd077e4c65dcd8717cda79e0898e27418abd0c89d28dfe",
     "description": "C# command line tool to manage virtual desktops in Windows 10",
     "homepage": "https://github.com/MScholtes/VirtualDesktop",
     "license": {
