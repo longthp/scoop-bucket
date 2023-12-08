@@ -1,6 +1,6 @@
 ## Personal Collection of Scoop Manifests
 
-### App Manifests
+### Featured App Manifests
 
 | App | Manifest |
 | --- | --- |
@@ -10,6 +10,16 @@
 | [VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | [link](./bucket/virtual-desktop.json) |
 | [ttdl](https://github.com/VladimirMarkelov/ttdl) | [link](./bucket/ttdl.json) |
 | [FancyBorders](https://github.com/Zinvoke) | [link](./bucket/fancy-borders.json) |
+
+### Usage
+Add this bucket using `scoop`:
+```shell
+scoop bucket add longthp https://github.com/longthp/scoop-bucket
+```
+Then update all scoop buckets:
+```shell
+scoop update
+```
 
 ### Credits
 - FancyBorders: thanks [Zinvoke](https://github.com/Zinvoke) for this amazing little ultility.
