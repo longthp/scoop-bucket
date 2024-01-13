@@ -1,0 +1,21 @@
+{
+    "version": "20.25.0",
+    "description": "Virtual Python Environment builder",
+    "homepage": "https://github.com/pypa/virtualenv",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://opensource.org/license/MIT/"
+    },
+    "url": "https://bootstrap.pypa.io/virtualenv.pyz",
+    "bin": "virtualenv.bat",
+    "pre_install": "Set-Content -Value '@python \"%~dp0virtualenv.pyz\" %*' -Path \"$dir\\virtualenv.bat\"",
+    "checkver": {
+        "github": "https://github.com/pypa/virtualenv"
+    },
+    "autoupdate": {
+        "url": "https://bootstrap.pypa.io/virtualenv.pyz",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
